@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.omerrom.portabelo.MainActivity"
+    android:background="@drawable/screenbgnomenu">
+
+
+    <ImageButton
+        android:drawable="@drawable/stringstrdecayover10"
+        android:layout_height="fill_parent"
+        android:layout_width="60dp"
+        android:contentDescription="@string/string_description"
+        android:src="@drawable/stringstrdecayover10"
+        android:id="@+id/E_LOW"
+        android:background="#00917070"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:backgroundTint="#00ffffff" />
+
+    <ImageButton
+        android:drawable="@drawable/stringstrdecayover10"
+        android:layout_height="fill_parent"
+        android:layout_width="60dp"
+        android:contentDescription="@string/string_description"
+        android:src="@drawable/stringstrdecayover10"
+        android:background="#00ffffff"
+        android:id="@+id/A"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/E_LOW"
+        android:layout_toEndOf="@+id/E_LOW" />
+
+    <ImageButton
+        android:drawable="@drawable/stringstrdecayover10"
+        android:layout_height="fill_parent"
+        android:layout_width="60dp"
+        android:contentDescription="@string/string_description"
+        android:src="@drawable/stringstrdecayover10"
+        android:background="#00ffffff"
+        android:id="@+id/D"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/A"
+        android:layout_toEndOf="@+id/A" />
+
+    <ImageButton
+        android:drawable="@drawable/stringstrdecayover10"
+        android:layout_height="fill_parent"
+        android:layout_width="60dp"
+        android:contentDescription="@string/string_description"
+        android:src="@drawable/stringstrdecayover10"
+        android:background="#00ffffff"
+        android:id="@+id/G"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/D"
+        android:layout_toEndOf="@+id/D" />
+
+    <ImageButton
+        android:drawable="@drawable/stringstrdecayover10"
+        android:layout_height="fill_parent"
+        android:layout_width="60dp"
+        android:contentDescription="@string/string_description"
+        android:src="@drawable/stringstrdecayover10"
+        android:background="#00ffffff"
+        android:id="@+id/B"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/G"
+        android:layout_toEndOf="@+id/G" />
+
+    <ImageButton
+        android:drawable="@drawable/stringstrdecayover10"
+        android:layout_height="fill_parent"
+        android:layout_width="60dp"
+        android:contentDescription="@string/string_description"
+        android:src="@drawable/stringstrdecayover10"
+        android:background="#00ffffff"
+        android:id="@+id/E_HIGH"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/B"
+        android:layout_toEndOf="@+id/B" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:id="@+id/outerScreen"
+        />
+</RelativeLayout>
